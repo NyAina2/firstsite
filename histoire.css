@@ -1,0 +1,105 @@
+body{background-image: url(wallpaper.jpeg);}
+.container{
+    display: flex;
+    flex-direction: row;
+}
+.container div{
+    padding: 15px;
+    border: 1px solid rgba(0, 0, 0, 0.63);
+    background-color: rgba(255, 255, 255, 0.199) ;
+}
+.home{
+    flex-basis: 10vw;
+    font-family:unispace;
+    font-size:30px;
+    text-align: center;
+}
+.one{
+   flex-basis: 10vw;
+   font-family:unispace;
+   font-size:30px;
+   text-align: center;
+}
+.jeux2{
+    flex-basis: 10vw;
+    font-family:unispace ;
+   font-size:30px;
+   text-align: center;
+}
+.trois{
+    flex-basis: 10vw;
+    font-family:unispace ;
+   font-size:30px;
+   text-align: center;
+}
+.quatre{
+    flex-basis: 15vw;
+    font-family:unispace ;
+   font-size:30px;
+   text-align: center;
+}
+.home a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+ .one a{
+     color: whitesmoke;
+     text-decoration: none;
+ }
+ .jeux2 a{
+    color: whitesmoke;
+    text-decoration: none;
+ }
+ .trois a{
+    color: whitesmoke;
+    text-decoration: none;
+ }
+ .quatre a{
+    color: whitesmoke;
+    text-decoration: none;
+ }
+ .home:hover a{
+    color: rgb(104, 8, 8);
+}
+ .one:hover a{
+     color: rgb(104, 8, 8);
+ }
+ .jeux2:hover a{
+    color: rgb(104, 8, 8);
+ }
+ .trois:hover a{
+    color: rgb(104, 8, 8);
+ }
+ .quatre:hover a{
+    color: rgb(104, 8, 8);
+ }
+ .lara{
+     width: 250px;
+ }
+.lara img{
+    width: 425px;
+}
+.text.2{
+    width: 1000px;
+    line-height: 1.5vw
+}
+.container.2{
+    display: flex;
+    flex-direction: row;
+}
+.histoireLARA{
+    display: flex;
+    flex-direction: row;
+}
+.histoireLARA img{
+    width: 400px;
+}
+p{
+    color: rgb(255, 255, 255);
+    font-family: modern ;
+    font-size: larger;
+}
+.text2{
+    width: 700px;
+    line-height: 2vw;
+}
